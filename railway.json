@@ -1,10 +1,8 @@
 {
   "build": {
-    "env": {
-      "QDRANT__SERVICE__HTTP_PORT": "80"
-    }
+    "dockerfile": null
   },
   "deploy": {
-    "startCommand": "/qdrant/target/release/qdrant"
+    "image": "qdrant/qdrant:v1.4.0"  
   }
 }
